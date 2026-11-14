@@ -1,0 +1,55 @@
+PARALILINK - PERSON C (LANDING + INDUSTRY + ADMIN)
+==================================================
+Tumhara kaam: landing page, industry (buyer) screens, admin console, demo data.
+
+---------- SABSE PEHLE (sirf ek baar) ----------
+Sahil ne repo mein add kiya hoga (email invite accept karo). Phir:
+
+   git clone https://github.com/<SAHIL_USERNAME>/paralilink.git
+   cd paralilink
+   git checkout -b landing
+
+---------- ROUND 1 (10 baje se pehle) ----------
+Files copy karo (yeh command folders ko MERGE karti hai, replace nahi):
+
+   cp -R "<is folder ka path>/round1-10-baje/." .
+
+Commit 1:
+   git add client/public
+   git commit -m "Add images and favicon"
+
+Commit 2:
+   git add client/src/components/layout client/src/pages
+   git commit -m "Add navbar, footer and site layout"
+
+Commit 3:
+   git add client/src/features/home
+   git commit -m "Add landing page with cluster map and FAQ"
+
+   git push origin landing
+GitHub par Pull request -> Merge.
+
+---------- ROUND 2 (subah 9 baje se pehle) ----------
+   git checkout main
+   git pull
+   git checkout -b industry-admin
+   cp -R "<is folder ka path>/round2-subah-9-baje/." .
+
+Commit 1:
+   git add client/src/features/buyer
+   git commit -m "Add industry screens: supply map, clusters, orders"
+
+Commit 2:
+   git add client/src/features/admin
+   git commit -m "Add admin console"
+
+Commit 3:
+   git add server/scripts/seedDemo.js
+   git commit -m "Add demo data script"
+
+   git push origin industry-admin
+Pull request -> Merge.
+
+---------- DHYAAN DO ----------
+- Push se pehle "git status" dekho.
+- Explain karna aana chahiye: landing page, industry cluster kaise book karti hai, admin kya dekhta hai.

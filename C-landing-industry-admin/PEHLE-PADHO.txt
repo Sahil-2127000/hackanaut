@@ -1,0 +1,18 @@
+PARALILINK - TEAM UPLOAD PLAN
+=============================
+A-backend-sahil            -> Sahil (server)
+B-frontend                 -> Partner 2 (React app, login, farmer, baler)
+C-landing-industry-admin   -> Partner 3 (landing, industry, admin)
+
+Har folder mein:
+  round1-10-baje       -> 10 baje ki evaluation se pehle push
+  round2-subah-9-baje  -> kal subah 9 baje se pehle push
+  KAISE-KARNA.txt      -> exact commands aur commit messages
+
+ORDER (zaroori):
+ Round 1: Sahil ka "Project setup" -> phir teeno ki branches -> teeno PR merge
+          -> demo chala ke dekho (landing, OTP login, farmer listing).
+ Round 2: Teeno PR merge -> poora demo.
+
+Round 1 akele bhi chalta hai (test kiya hai): baler, industry, admin ke
+links round 2 mein aate hain.
